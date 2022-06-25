@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--网页头部，设置网页title标签，链接外部样式表CSS文件-->
+		<meta charset="UTF-8">
+		<title>我的空间 | 兴趣爱好</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/interest.css" />
+	</head>
+	<body>
+		<!--页眉区header-->
+		<div id="header">
+			<!--各个页面设置view类，放置头像图片和我的页面欢迎词-->
+			<div class="view">
+				<a href="#"><img src="../img/hh.jpg" /></a>
+				<p class="userName">HELLO! XUAN</p>
+			</div>
+			<div class="next">
+				<!--导航区nav，导航至五个子页面-->
+				<!--当前页面导航背景颜色及字体颜色改变-->
+				<div class="nav">
+				    <a href="person.html" ><p>个人简介</p></a>
+				    <a href="interest.html" ><p style="color: gold;background: #5473aa;">兴趣爱好</p></a>
+				    <a href="action.html" ><p>活动经历</p></a>
+				    <a href="trip.html" ><p>旅游生活</p></a>
+				    <a href="friendform.html" ><p>成为朋友</p></a>
+					<!--包括返回首页-->
+					<div class="return">
+				    	<a href="index.html">
+				    	<img src="../img/return.png"  />
+				    	<span>返回首页</span>
+				    	</a>
+				    </div>
+			    </div>
+				<!--end of nav-->
+			</div>
+		</div>
+		<!--end of header-->
+		
+		
+        <!--主体内容区main，分为interest内容区和album内容区两部分-->
+        <div id="main">
+			<!--interest内容区-->
+        	<div class="interest">
+			    <!--interest内容区标题-->
+        		<div class="title">
+        			<p>兴趣爱好</p>
+        			<span>|</span>
+        			<h2>My&nbsp;Interest</h2>
+        		</div>
+			    <!--内容包含两个部分，分别为view1/view2-->
+			    <!--view1包括四个兴趣图片-->
+        		<div class="view1">
+        			<ul>
+        				<li><img src="../img/interest1.png" /></li>
+        				<li><img src="../img/interest2.png" /></li>
+        				<li><img src="../img/interest3.png" /></li>
+        				<li><img src="../img/interest4.png" /></li>
+        			</ul>
+        		</div>
+			    <!--view2包括兴趣图片对应的兴趣名称，以及线条图片-->
+        		<div class="view2">
+					<!--阅读-->
+        			<div class="choic">
+        				<img src="../img/choic.png" />
+        				<p>阅&nbsp;读</p>
+        			</div>
+        			<div class="line"></div>
+					<!--街舞-->
+        			<div class="choic">
+        				<img src="../img/choic.png" />
+        				<p>街&nbsp;舞</p>
+        			</div>
+        			<div class="line"></div>
+					<!--钢琴-->
+        			<div class="choic">
+        				<img src="../img/choic.png" />
+        				<p>钢&nbsp;琴</p>
+        			</div>
+        			<div class="line"></div>
+					<!--游泳-->
+        			<div class="choic">
+        				<img src="../img/choic.png" />
+        				<p>游&nbsp;泳</p>
+        			</div>
+        		</div>
+        	</div>
+			<!--end of interest-->
+
+        	<!--album内容区-->
+        	<div class="album">
+				<!--album内容区标题-->
+        		<div class="title">
+        			<h2>Best&nbsp;·&nbsp;Album</h2>
+        		</div>
+				<!--内容包含最爱专辑的专辑图片和具体介绍-->
+        		<div class="content">
+        			<img src="../img/album.jpg">
+        			<p><span>Humble Swag</span><br />
+						这是马思唯个人第三张录音室专辑。<br />
+						回归 Hip hop 音乐的律动和 Rap 的 Flow,<br />
+						记录他说唱生涯近十年所打磨出来的音乐理念。<br />
+						<br />
+						什么是“ Humble Swag ”?Humble——谦逊的, Swag一有范的。<br />
+						作为一名90后的年轻人, 马思唯身上带着中国传绕的谦虚品质; <br />
+						作为一个从小被 Hip hop 音乐浸泡的职业 Rapper, 他又是张扬的、狂放的。<br />
+						这张专辑就是马思唯对当代年轻人「谦虚有样」的诠释和理解。
+        			</p>
+        		</div>
+        	</div>
+			<!--end of album-->
+        </div>
+        <!--end of main-->
+        
+        
+		<!--页脚区footer-->
+		<div id="footer">
+			<!--各个页面设置个人主页内容的四个页面的超链接-->
+			<p>
+				<a href="person.html">个人简介</a><span>|</span>
+				<a href="interest.html">兴趣爱好</a><span>|</span>
+				<a href="action.html">活动经历</a><span>|</span>
+				<a href="trip.html">旅游生活</a>
+			</p>
+		</div>
+		<!--end of footer-->
+	</body>
+</html>

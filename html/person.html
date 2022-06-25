@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--网页头部，设置网页title标签，链接外部样式表CSS文件-->
+		<meta charset="UTF-8">
+		<title>我的空间 | 个人简介</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/person.css" />		
+	</head>
+	<body>
+		<!--页眉区header-->
+		<div id="header">
+			<!--各个页面设置view类，放置头像图片和我的页面欢迎词-->
+			<div class="view">
+				<a href="#"><img src="../img/hh.jpg" /></a>
+				<p class="userName">HELLO! XUAN</p>
+			</div>
+			<div class="next">
+				<!--导航区nav，导航至五个子页面-->
+				<!--当前页面导航背景颜色及字体颜色改变-->
+				<div class="nav">
+				    <a href="person.html" ><p style="color: gold;background: #5473aa;">个人简介</p></a>
+				    <a href="interest.html" ><p>兴趣爱好</p></a>
+				    <a href="action.html" ><p>活动经历</p></a>
+				    <a href="trip.html" ><p>旅游生活</p></a>
+				    <a href="friendform.html" ><p>成为朋友</p></a>
+					<!--包括返回首页-->
+					<div class="return">
+				    	<a href="index.html">
+				    	<img src="../img/return.png"  />
+				    	<span>返回首页</span>
+				    	</a>
+				    </div>
+			    </div>
+				<!--end of nav-->
+			</div>
+		</div>
+		<!--end of header-->
+		
+
+        <!--主体内容区main，分为my内容区和say内容区两部分-->
+        <div id="main">
+        	<!--my内容区-->
+        	<div class="my">
+				<!--my内容区标题-->
+        		<div class="title">
+        			<p>我的简历</p>
+        			<span>|</span>
+        			<h2>About&nbsp;Me</h2>
+        		</div>
+				<!--内容包含图片和box1/box2左右两个部分-->
+        	    <div class="content">
+					<!--个人图片-->
+        	    	<img src="../img/my.png"  />
+        	    	<div class="right">
+						<!--右栏的box1使用个人简介表格，表格样式为两列七行-->
+        	    		<div class="box1">
+        	    			<table>
+								<caption>个人情况</caption>
+								<!--姓名表格行-->
+								<tr>
+									<td>姓名</td>
+									<td>吴文暄</td>
+								</tr>
+								<!--年龄表格行-->
+								<tr>
+									<td>年龄</td>
+									<td>21</td>
+								</tr>
+								<!--就读学校表格行-->
+								<tr>
+									<td>就读学校</td>
+									<td>中南财经政法大学</td>
+								</tr>
+								<!--就读专业表格行-->
+								<tr>
+									<td>就读专业</td>
+									<td>信息系统与信息管理</td>
+								</tr>
+								<!--校内任职表格行-->
+								<tr>
+									<td>校内任职</td>
+									<td>第22届校广播台台长</td>
+								</tr>
+								<!--个人经历表格行-->
+								<tr>
+									<td>个人经历</td>
+									<td>主办第21届声之韵大型广播文艺晚会“芸芸众声”</td>
+								</tr>
+								<!--获奖情况表格行-->
+								<tr>
+									<td>获奖情况</td>
+									<td>湖北省高校广播工作优秀个人</td>
+								</tr>
+							</table>
+							<!--end of table-->
+        	    		</div>
+						<!--end of box1-->
+
+						<!--右栏的box2包含我的公开账号-->
+        	    		<div class="box2">
+        	    			<img class="line" src="../img/line.png"  />
+        	    			<div class="next">
+        	    				<div class="icon">
+									<img class="icon2" src="../img/icon2.png" />
+								</div>
+        	    				<h2>Contact&nbsp;Me</h2>
+								<i>Weibo:@GEMLIKER</i>
+								<i>E-mail:1309729649@qq.com</i>
+        	    			</div>
+        	    		</div>
+						<!--end of box2-->
+        	    	</div>
+        	    </div>
+        	</div>
+			<!--end of my-->
+
+        	<!--say内容区-->
+			<!--内容包含我的个人座右铭-->
+        	<div class="say">
+        		<p>爱现在的我，过去的我</p>
+        		<h2>LOVE&nbsp;YOURSELF&nbsp;,&nbsp;SPEAK&nbsp;<span>MYSELF</span></h2>
+        	</div>
+			<!--end of say-->
+        </div>
+		<!--end of main-->
+
+        
+		<!--页脚区footer-->
+		<div id="footer">
+			<!--各个页面设置个人主页内容的四个页面的超链接-->
+			<p>
+				<a href="person.html">个人简介</a><span>|</span>
+				<a href="interest.html">兴趣爱好</a><span>|</span>
+				<a href="action.html">活动经历</a><span>|</span>
+				<a href="trip.html">旅游生活</a>
+			</p>
+		</div>
+		<!--end of footer-->
+	</body>
+</html>
+

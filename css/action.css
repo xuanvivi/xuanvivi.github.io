@@ -1,0 +1,129 @@
+/*设置action.html活动经历页面main主体内容区样式*/
+/*main区设置流动布局，宽度100%，高度固定1100px*/
+#main{
+	width: 100%;
+	height: 1100px;
+}
+/*action内容区设置流动布局，宽度100%，高度固定650px*/
+#main .action{
+	width: 100%;
+	height: 650px;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.title设置流动布局，上下边距固定55px，左右边距自适应*/
+#main .action .title{
+	width: 200px;
+	height: 50px;
+	border: 1px solid #5473aa;
+	margin: 55px auto;
+}
+#main .action .title h2{
+	width: 100px;
+	height: 30px;
+	background: white;
+	margin-left: 50px;
+	margin-top: -15px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 30px;
+	color: #97895c;
+}
+#main .action .title p{
+	width: 200px;
+	height: 35px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 35px;
+	font-size: 15px;
+	font-family: "arial black";
+	color: #97895c;
+}
+/*.content设置浮动布局，上下边距固定60px，左右边距自适应*/
+#main .action .content{
+	width: 800px;
+	height: 380px;
+	margin: 60px auto;
+}
+/*.box设置流动布局，设置并排靠左浮动显示*/
+#main .action .content .box{
+	width: 245px;
+	height: 380px;
+	float: left;
+}
+#main .action .content .box .discribe{
+	width: 245px;
+	height: 100px;
+	text-align: center;/*设置文本水平居中对齐*/
+}
+#main .action .content .box .discribe h3{
+	height: 50px;
+	line-height: 50px;
+	color: #97895c;
+}
+#main .action .content .box .discribe p{
+	height: 50px;
+	line-height: 25px;
+	font-size: 14px;
+}
+/*life内容区设置流动布局，宽度100%，高度固定650px*/
+#main .life{
+	width: 100%;
+	height: 450px;
+	background: whitesmoke;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.title设置流动布局，上下边距固定35px，左右边距自适应*/
+#main .life .title{
+	width: 200px;
+	height: 80px;
+	margin: 35px auto;
+}
+#main .life .title .line{
+	height: 20px;
+	border-bottom: 2px solid #5473aa;
+}
+#main .life .title h2{
+	color: #97895c;
+	width: 100px;
+	background: whitesmoke;
+	text-align: center;/*设置文本水平居中对齐*/
+	margin-left: 50px;
+	margin-top: -15px;
+}
+#main .life .title p{
+	width: 200px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;/*设置文本水平居中对齐*/
+	font-size: 15px;
+	font-family: "arial black";
+	color: #97895c;
+}
+/*.view设置浮动布局，左右边距自适应*/
+#main .life .view{
+	width: 840px;
+	height: 200px;
+	margin: -20px auto;
+}
+/*.smallView设置流动布局，设置并排靠左浮动显示*/
+#main .life .view .smallView{
+	width: 400px;
+	height: 120px;
+	float: left;
+	margin: 20px 10px;
+}
+#main .life .view .smallView img{
+	float: left;/*设置并排靠左浮动显示*/
+}
+#main .life .view .smallView p{
+	width: 250px;
+	height: 120px;
+	float: right;/*设置并排靠右浮动显示*/
+	padding: 0 -30px;
+	line-height: 25px;
+	font-size: 12px;
+}
+#main .life .view .smallView p span{
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+    color: #5473aa;
+}

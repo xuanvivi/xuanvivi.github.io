@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--网页头部，设置网页title标签，链接外部样式表CSS文件-->
+		<meta charset="UTF-8">
+		<title>我的空间 | 旅游生活</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/trip.css" />
+	</head>
+	<body>
+		<!--页眉区header-->
+		<div id="header">
+			<!--各个页面设置view类，放置头像图片和我的页面欢迎词-->
+			<div class="view">
+				<a href="#"><img src="../img/hh.jpg" /></a>
+				<p class="userName">HELLO! XUAN</p>
+			</div>
+			<div class="next">
+				<!--导航区nav，导航至五个子页面-->
+				<!--当前页面导航背景颜色及字体颜色改变-->
+				<div class="nav">
+				    <a href="person.html" ><p>个人简介</p></a>
+				    <a href="interest.html" ><p>兴趣爱好</p></a>
+				    <a href="action.html" ><p>活动经历</p></a>
+				    <a href="trip.html" ><p style="color: gold;background: #5473aa;">旅游生活</p></a>
+				    <a href="friendform.html" ><p>成为朋友</p></a>
+					<!--包括返回首页-->
+					<div class="return">
+				    	<a href="index.html">
+				    	<img src="../img/return.png"  />
+				    	<span>返回首页</span>
+				    	</a>
+				    </div>
+			    </div>
+				<!--end of nav-->
+			</div>
+		</div>
+		<!--end of header-->
+		
+		
+        <!--主体内容区main，分为record内容区和photos内容区两部分-->
+        <div id="main">
+        	<!--record内容区-->
+        	<div class="record">
+				<!--record内容区标题-->
+        		<div class="title1">
+        			<h2>旅游&nbsp;.&nbsp;记忆</h2>
+        			<p>Travel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note</p>
+        		</div>
+				<!--内容包含三个部分，重用样式box、section-->
+        		<div class="content1">
+					<!--迪士尼乐园-->
+        			<div class="box">
+        				<img src="../img/note1.png" />
+        				<div class="section">
+        					<h2>迪士尼<span>2021.07.15</span></h2>
+        					<p>每个人都梦想着去一次迪士尼乐园，因为它承载着我们最美好的童梦，
+								承载着希望与温暖，在那里，找寻曾经的纯真与最纯粹的快乐。
+        					</p>
+        				</div>
+        			</div>
+					<!--东湖公园-->
+        			<div class="box">
+        				<div class="section">
+        					<h2>东湖<span>2022.01.01</span></h2>
+        					<p>在跨年夜的第二天, 2022年的第一个清晨, 站在东湖边长长的桥面上,
+								与无数带着对新一年的期盼的人们，一起等待着第一个日出。
+        					</p>
+        				</div>
+        				<img src="../img/note2.png" />
+        			</div>
+					<!--香港大学-->
+        			<div class="box">
+        				<img src="../img/note3.png" />
+        				<div class="section">
+        					<h2>香港城<span>2017.08.01</span></h2>
+        					<p>
+        						香港，一座快慢节奏交织的魅力都市，始终带着一层神秘的色彩。
+								但无论是极致享受的美食，还是汇集中外贸易窗口的繁华商场，
+								都让我痴迷于这座城市，流连忘返。
+        					</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+			<!--end of record-->
+
+			<!--photos内容区-->
+        	<div class="photos" >
+				<!--photos内容区标题-->
+			    <div class="title2">
+        			<div class="line"></div>
+        			<h2>旅游&nbsp;.&nbsp;照片</h2>
+        			<p>Travel&nbsp;Photos</p>
+        		</div>
+				<!--内容包含两个部分，分别为bigView和smallBox-->
+			    <div class="content2">
+					<!--显示单张图片大图-->
+				    <ul class="bigView">
+					    <li id="img1"><img src="../img/trip1.png" /></li>
+					    <li id="img2"><img src="../img/trip2.png" /></li>
+					    <li id="img3"><img src="../img/trip3.png" /></li>
+					    <li id="img4"><img src="../img/trip4.png" /></li>
+					    <li id="img5"><img src="../img/trip5.png" /></li>
+					    <li id="img6"><img src="../img/trip6.png" /></li>
+					    <li id="img7"><img src="../img/trip7.png" /></li>
+					    <li id="img8"><img src="../img/trip8.png" /></li>
+					    <li id="img9"><img src="../img/trip9.png" /></li>
+				    </ul>
+				    <!--显示多张图片缩略图的隐藏滚动条-->
+				    <div class="smallBox">
+						<ul class="smallView">
+					    	<li><a href="#img1"><img src="../img/trip1.png" /></a></li>
+					    	<li><a href="#img2"><img src="../img/trip2.png" /></a></li>
+					    	<li><a href="#img3"><img src="../img/trip3.png" /></a></li>
+					    	<li><a href="#img4"><img src="../img/trip4.png" /></a></li>
+					    	<li><a href="#img5"><img src="../img/trip5.png" /></a></li>
+					    	<li><a href="#img6"><img src="../img/trip6.png" /></a></li>
+					    	<li><a href="#img7"><img src="../img/trip7.png" /></a></li>
+					    	<li><a href="#img8"><img src="../img/trip8.png" /></a></li>
+					    	<li><a href="#img9"><img src="../img/trip9.png" /></a></li>
+				    	</ul>
+				    </div>
+			    </div>
+		    </div>
+		    <!--end of photos-->
+        </div>
+		<!--end of main-->
+
+        
+		<!--页脚区footer-->
+		<div id="footer">
+			<!--各个页面设置个人主页内容的四个页面的超链接-->
+			<p>
+				<a href="person.html">个人简介</a><span>|</span>
+				<a href="interest.html">兴趣爱好</a><span>|</span>
+				<a href="action.html">活动经历</a><span>|</span>
+				<a href="trip.html">旅游生活</a>
+			</p>
+		</div>
+		<!--end of footer-->
+	</body>
+</html>

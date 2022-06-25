@@ -1,0 +1,138 @@
+/*设置index.html首页页面内容区样式*/
+/*first区设置流动布局，宽度100%，高度固定70px*/
+#first{
+	width: 100%;
+	height: 70px;
+	background: #5473aa;
+}
+#first img{
+	width: 112px;
+	height: 26px;
+	margin-left: 140px;
+	margin-top: 22px;
+}
+/*second区设置流动布局，宽度100%，高度固定500px，背景图覆盖*/
+#second{
+	width: 100%;
+	height: 500px;
+	background: url(../img/bk.png) no-repeat;
+	background-size: cover;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.content设置流动布局，上下边距固定40px，左右边距自适应*/
+#second .content{
+	width: 400px;
+	height: 400px;
+	margin: 40px auto;
+}
+#second .content .view1{
+	width: 120px;
+	height: 165px;
+	margin-left: 140px;
+}
+#second .content .view1 img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;/*设置图片圆形边框*/
+	border: 2px solid gray;
+}
+/*添加伪类触发鼠标悬停效果，图片加上白色边框*/
+#second .content .view1 img:hover{
+	border: 2px solid white;
+}
+#second .content .view2{
+	width: 400px;
+	height: 65px;
+}
+#second .content .view2 p{
+	width: 290px;
+	height: 65px;
+	border: 2px solid white;
+	margin-left: 55px;
+	color: white;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 65px;
+	font-family: "仿宋";
+	font-size: 35px;
+}
+/*添加伪类触发鼠标悬停效果，文字改变颜色为金色*/
+#second .content .view2 p:hover{
+	color: gold;
+}
+#second .content .view3{
+	width: 400px;
+	height: 70px;
+	margin-top: 40px;
+	text-align: center;/*设置文本水平居中对齐*/
+}
+#second .content .view3 p{
+	font-size: 22px;
+	font-family: arial;
+	line-height: 35px;
+	color: white;
+}
+/*third区设置流动布局，宽度100%，高度固定500px，背景图覆盖*/
+#third{
+	width: 100%;
+	height: 470px;
+	background: #5473aa;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.view区设置浮动布局，上下边距固定40px，左右边距自适应*/
+#third .view{
+	width: 924px;
+	height: 312px;
+	margin: 40px auto;
+}
+/*.box设置相对定位布局，设置靠左浮动显示*/
+#third .view .box{
+	width: 450px;
+	height: 140px;
+	border: 1px solid gray;
+	float: left;
+	margin: 7px 5px;
+	position: relative;
+}
+/*.hid设置绝对定位布局，并设置默认隐藏.hid内容*/
+#third .view .box .hid{
+	width: 450px;
+	height: 140px;
+	color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+    background: rgba(1,1,1,0.5); 
+    display: none;
+}
+#third .view .box .hid h2{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+	text-align: center;/*设置文本水平居中对齐*/
+}
+#third .view .box .hid p{
+	width: 400px;
+	height: 60px;
+	line-height: 30px;
+	padding-left: 50px;
+	font: 18px;
+	font-family: "仿宋";
+}
+/*设置伪类触发鼠标悬停效果，显示.hid内容*/
+#third .view .box:hover .hid{
+	border: 1px solid white;
+	display: block;
+}
+
+#third .last{
+	width: 100%;
+	height: 50px;
+	background: rgba(1,1,1,0.3);
+	margin-top: 68px;
+	color: white;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 50px;
+	font-size: 18px;
+	font-family: "仿宋";
+}

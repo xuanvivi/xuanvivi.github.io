@@ -1,0 +1,132 @@
+/*设置interest.html兴趣爱好页面main主体内容区样式*/
+/*默认列表无风格*/
+li{
+	list-style: none;
+}
+/*main区设置流动布局，宽度100%，高度固定930px*/
+#main{
+	width: 100%;
+	height: 930px;
+}
+/*interest内容区设置流动布局，宽度100%，高度固定400px*/
+#main .interest{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*.title设置流动布局，上下边距固定25px，左右边距自适应*/
+#main .interest .title{
+	width: 230px;
+	height: 60px;
+	margin: 25px auto;
+}
+#main .interest .title p{
+	width: 100%;
+	height: 25px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 25px;
+	color: #97895c;
+	font-size: 16px;
+	font-family: "仿宋";
+}
+#main .interest .title span{
+	font-size: 25px;
+	color: #e29c44;
+	float: left;/*设置靠左浮动显示*/
+	margin-left: 5px;
+}
+#main .interest .title h2{
+	font-size: 27px;
+	float: right;/*设置靠右浮动显示*/
+	color: #97895c;
+	margin-bottom: 20px;
+}
+/*.view1设置浮动布局，上下边距固定30px，左右边距自适应*/
+#main .interest .view1{
+	width: 960px;
+	height: 160px;
+	margin: 30px auto;
+}
+#main .interest .view1 li{
+	width: 230px;
+	height: 160px;
+	margin: 0 5px;
+	float: left;/*设置并排靠左浮动显示*/
+}
+#main .interest .view1 img{
+	width: 228px;
+	height: 158px;
+	border: 1px solid gray;
+}
+/*.view2设置浮动布局，上下边距固定20px，左右边距自适应*/
+#main .interest .view2{
+	width: 750px;
+	height: 45px;
+	margin: 20px auto;
+}
+/*.choic设置流动布局，设置靠左浮动显示*/
+#main .interest .view2 .choic{
+	width: 45px;
+	height: 45px;
+	text-align: center;/*设置文本水平居中对齐*/
+	float: left;
+}
+#main .interest .view2 .choic p{
+	font-size: 15px;
+	width: 45px;
+	height: 15px;
+	line-height: 15px;
+	color: #97895c;
+}
+#main .interest .view2 .line{
+	width: 190px;
+	height: 37px;
+	float: left;/*设置并排靠左浮动显示*/
+	border-bottom: 2px solid #65cbd0;
+}
+/*album内容区设置流动布局，宽度100%，高度固定530px*/
+#main .album{
+	width: 100%;
+	height: 530px;
+	background: whitesmoke;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.title设置流动布局，上下边距固定25px，左右边距自适应*/
+#main .album .title{
+	width: 170px;
+	height: 45px;
+	margin: 25px auto;
+	border-bottom: 2px solid #636363;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 30px;
+}
+#main .album .title h2{
+	font-size: 25px;
+	float: right;/*设置靠右浮动显示*/
+	color: #97895c;
+}
+/*.content设置流动布局，上下边距固定30px，左右边距自适应*/
+#main .album .content{
+	width: 960px;
+	height: 350px;
+	margin: 30px auto;
+}
+#main .album .content img{
+	width: 350px;
+	height: 350px;
+	float: left;/*设置靠左浮动显示*/
+}
+#main .album .content p{
+	width: 550px;
+	height: 300px;
+	margin-top: 5px;
+	float: right;/*设置靠右浮动显示*/
+	font-size: 16px;
+	line-height: 40px;
+}
+#main .album .content span{
+	color: #5473aa;
+	font-size: 25px;
+	margin-top: 20px;
+}

@@ -1,0 +1,150 @@
+/*设置trip.html旅游生活页面main主体内容区样式*/
+/*main区设置流动布局，宽度100%，高度固定1150px*/
+#main{
+	width: 100%;
+	height: 1150px;
+}
+/*record内容区设置流动布局，宽度100%，高度固定550px*/
+#main .record{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.title1设置流动布局，上下边距固定55px，左右边距自适应*/
+#main .record .title1{
+	width: 200px;
+	height: 50px;
+	border: 1px solid #5473aa;
+	margin: 55px auto;
+}
+#main .record .title1 h2{
+	width: 130px;
+	height: 30px;
+	font-size: 25px;
+	background: white;
+	margin-left: 35px;
+	margin-top: -15px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 30px;
+	color: #97895c;
+}
+#main .record .title1 p{
+	width: 200px;
+	height: 35px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 35px;
+	font-size: 15px;
+	font-family: "arial black";
+	color: #97895c;
+}
+/*.content1设置浮动布局，左右边距自适应*/
+#main .record .content1{
+	width: 780px;
+	height: 360px;
+	margin: -15px auto;
+}
+/*.box设置流动布局，设置并排靠左浮动显示*/
+#main .record .content1 .box{
+	width: 260px;
+	height: 360px;
+	float: left;
+}
+#main .record .content1 .box .section{
+	width: 260px;
+	height: 180px;
+}
+#main .record .content1 .box .section h2{
+	width: 260px;
+	height: 50px;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 50px;
+	font-family: "仿宋";
+}
+#main .record .content1 .box .section h2 span{
+	width: 50px;
+	font-size: 15px;
+	color: gray;
+}
+#main .record .content1 .box .section p{
+	height: 130px;
+	line-height: 22px;
+	padding: 12px 20px;
+	font-size: 13px;
+}
+/*默认列表无风格*/
+li{
+	list-style: none;
+}
+/*life内容区设置流动布局，宽度100%，高度固定600px*/
+#main .photos{
+	width: 100%;
+	height: 600px;
+	background: whitesmoke;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.title2设置流动布局，上下边距固定35px，左右边距自适应*/
+#main .photos .title2{
+	width: 300px;
+	height: 80px;
+	margin: 35px auto;
+}
+#main .photos .title2 .line{
+	height: 30px;
+	border-bottom: 2px solid #5473aa;
+}
+#main .photos .title2 h2{
+	color: #97895c;
+	width: 140px;
+	background: whitesmoke;
+	text-align: center;/*设置文本水平居中对齐*/
+	margin-left: 80px;
+	margin-top: -15px;
+}
+#main .photos .title2 p{
+	width: 300px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;/*设置文本水平居中对齐*/
+	font-size: 15px;
+	font-family: "arial black";
+	color: #97895c;
+}
+/*.content2设置浮动布局，左右边距自适应*/
+#main .content2{
+	width: 850px;
+	height: 450px;
+	background: rgba(1,1,1,0.7);
+	margin: -25px auto;
+}
+#main .content2 .bigView{
+	width: 700px;
+	height: 400px;
+	float: left;/*设置靠左浮动显示*/
+	margin-top: 25px;
+	margin-left: 40px;
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+#main .content2 .bigView img{
+	width: 700px;	
+	height: 400px;
+}
+#main .content2 .smallBox{
+	width: 64px;
+	float: right;/*设置靠右浮动显示*/
+	overflow-x: hidden;/*区域溢出滚动条部分隐藏*/
+	margin-top: 25px;
+	margin-right: 40px;
+}
+/*通过外层套大盒子，将滚动条隐去*/
+#main .content2 .smallView{
+	width: 84px;
+	height: 400px;
+	overflow-y: scroll;/*保证里面的可以滑动*/
+}
+#main .content2 .smallView img{
+	width: 55px;
+	height: 60px;
+	float: left;/*设置靠左浮动显示*/
+	margin-bottom: 4px;
+	border: 1px solid white;
+}

@@ -1,0 +1,137 @@
+/*设置网站页面基础样式*/
+/*重置浏览器默认样式*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+	margin: 0;
+	padding: 0;
+}
+/*默认元素a无文本修饰，设置颜色*/
+a{
+	text-decoration: none;
+	color: #89898b;
+}
+/*默认标准字体样式*/
+i,em{
+	font-style: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+/*使用内容生成的方法清除浮动，解决高度坍塌问题*/
+.clearfix:after,
+.cleatfix:before{
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0;
+}
+/*页眉区header样式设置*/
+/*header设置流动布局，宽度100%，高度固定280px，背景图覆盖整个区*/
+#header{
+	width: 100%;
+	height: 280px;
+	background: url(../img/header.png) no-repeat bottom;
+	background-size: cover;
+	margin: 0 auto;/*上下边距为0，左右边距自适应*/
+	overflow: hidden;/*区域溢出页面部分隐藏*/
+}
+/*.view设置绝对定位布局*/
+#header .view{
+	width: 300px;
+	height: 170px;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 85px;
+}
+#header .view img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;/*设置图片圆形边框*/
+	margin-left: 80px;	
+	border: 2px solid gray;
+}
+#header .view .userName{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;/*设置文本水平居中对齐*/
+}
+/*.next设置浮动布局，宽度100%，高度固定115px，背景图覆盖*/
+#header .next{
+	width: 100%;
+	height: 115px;
+	margin-top: 165px;
+	background: rgba(1,1,1,0.6);
+	background-size: cover;
+}
+#header .next .nav{
+	width: 100%;
+	height: 45px;
+	margin-top: 70px;
+	float: left;/*设置并排靠左浮动显示*/
+}
+#header .next .nav p{
+	width: 100px;
+	float: left;/*设置并排靠左浮动显示*/
+	font-size: 18px;
+	color: antiquewhite;
+	text-align: center;/*设置文本水平居中对齐*/
+	line-height: 45px;
+	margin-bottom: 0;
+	border: 2px solid #5473aa;
+	margin-left: 10px;
+}
+/*添加伪类触发鼠标悬停效果，文字放大并改变颜色*/
+#header .next .nav p:hover{
+	color: gold;
+	font-size: 20px;
+}
+
+#header .next .nav .return{
+	width: 150px;
+	height: 45px;
+	float: right;/*设置靠右浮动显示*/
+}
+#header .next .nav .return img{
+	width: 25px;
+	height: 25px;
+	margin: 10px;
+	float: left;/*设置并排靠左浮动显示*/
+}
+#header .next .nav .return span{
+	width: 100px;
+	height: 45px;
+	float: left;/*设置并排靠左浮动显示*/
+	line-height: 45px;
+	color: white;
+}
+/*添加伪类触发鼠标悬停效果，文字放大并改变颜色*/
+#header .next .nav .return span:hover{
+	font-size: 18px;
+	color: gold;
+}
+/*设置元素下边框样式*/
+#header{
+	border-bottom: 10px solid #5473aa;
+}
+
+/*页脚区footer样式设置*/
+/*footer设置流动布局，宽度100%，高度固定50px，背景色设置黑色*/
+#footer{
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;/*设置文本水平居中对齐*/
+	background: black;
+	color: #898988;
+}
+#footer p{
+	line-height: 35px;/*设置行高为35px*/
+	font-size: 12px;
+}
+#footer a{
+	font-size: 13px;
+	margin: 0 20px;/*设置元素右边距为20px*/
+}

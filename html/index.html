@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--网页头部，设置网页title标签，链接外部样式表CSS文件-->
+		<meta charset="UTF-8">
+		<title>欢迎界面 | 首页</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body>
+		<!--首页自上而下分为三个区，分别为first/second/third-->
+		<!--first区包含个人网页logo，对应超链接为首页-->
+		<div id="first">
+			<a href="index.html">
+				<img src="../img/logo.png">
+			</a>
+		</div>
+		
+		<!--second区包含首页主页面显示内容，分为view1/view2/view3三个部分-->
+		<!--点击头像或“进入空间”都对应“个人简介”超链接-->
+		<div id="second">
+			<div class="content">
+					<!--个人头像-->
+					<div class="view1">
+					<a href="person.html">
+						<img src="../img/hh.jpg">
+					</a>
+				</div>
+					<!--进入跳转-->
+					<div class="view2">
+					<a href="person.html">
+						<p>&nbsp;进&nbsp;入&nbsp;空&nbsp;间&nbsp;</p>
+					</a>
+				</div>
+					<!--网站介绍-->
+					<div class="view3">
+					<p>je t'aime plus qu'hier moins que demain.</p>
+				    <p>这世界变化太快，记录我的小确幸</p>
+				</div>
+			</div>
+		</div>
+
+		<!--third区包含个人主页内容的四个页面简介，并设置对应的网页超链接-->
+		<div id="third">
+			<div class="view">
+				<!--个人简介页面介绍-->
+				<div class="box">
+				    <a href="person.html">
+				    	<img src="../img/box1.png" />
+				    	<div class="hid">
+				    		<h2>个人简介</h2>
+				    		<p>我想一日千里，踩疯狂节奏，<br />
+								  我想睡在梦里，醒在梦境。</p>
+				    	</div>
+				    </a>
+			    </div>
+				<!--兴趣爱好页面介绍-->
+			    <div class="box">
+				    <a href="interest.html">
+				    	<img src="../img/box4.png" />
+				        <div class="hid">
+				    	    <h2>兴趣爱好</h2>
+				    	    <p>古典轻舞、摇滚贝斯、掌阅品文,<br />
+				    	          寻找一个让自己放空的天地。，</p>
+				        </div>
+				    </a>
+			    </div>
+				<!--活动经历页面介绍-->
+			    <div class="box">
+				    <a href="action.html">
+				    	<img src="../img/box3.png" />
+				    	<div class="hid">
+				    	    <h2>活动经历</h2>
+				    	    <p>你的声音，我的心灵，携手在空中，<br />
+				    	          中南财经政法大学广播台——中南之声。</p>
+				        </div>
+				    </a>
+			    </div>
+				<!--旅游生活页面介绍-->
+			    <div class="box">
+				    <a href="trip.html">
+				    	<img src="../img/box2.png" />
+				    	<div class="hid">
+				    	    <h2>旅游生活</h2>
+				    	    <p>我的行李箱没有锂电池，<br />
+				    	          除了衣物之外，只剩梦想与偏执。</p>
+				        </div>
+				    </a>
+			    </div>
+			</div>
+
+			<!--欢迎语-->
+			<p class="last">欢迎来到XUAN的世界！</p>
+		</div>
+	</body>
+</html>

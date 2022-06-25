@@ -1,0 +1,40 @@
+/*设置friendform.html成为好友页面main主体内容区样式*/
+/*main区设置流动布局，宽度100%，高度固定650px*/
+#main {
+	width: 100%;
+	height: 650px;
+	background-color: #ddf0fe;
+}
+	
+#main .title h1 {
+	font-size: 150%;
+	color: #954b4b;
+  }
+  
+#main .title h2 { 
+	font-size: 110%; 
+}
+/*form表单设置display属性的表格布局*/
+#main .content form {
+	display: table;/*此元素将会作为块级表格显示*/
+	padding: 10px;
+	border: thin dotted #7e7e7e;
+	background-color: #f4ebc9;
+}
+
+#main .content form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+#main .content form.tableRow {
+	display: table-row;/*此元素将会作为表格行显示*/
+}
+
+#main .content form.tableRow p {
+	display: table-cell;/*此元素将会作为表格单元格显示*/
+	vertical-align: top;/*把元素的顶端与行中最高元素的顶端对齐*/
+	padding: 3px;
+}
+
+

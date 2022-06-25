@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<!--网页头部，设置网页title标签，链接外部样式表CSS文件-->
+		<meta charset="UTF-8">
+		<title>我的空间 | 成为朋友</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/friendform.css" />
+    </head>
+    <body>
+		<!--页眉区header-->
+		<div id="header">
+			<!--各个页面设置view类，放置头像图片和我的页面欢迎词-->
+			<div class="view">
+				<a href="#"><img src="../img/hh.jpg" /></a>
+				<p class="userName">HELLO! XUAN</p>
+			</div>
+			<div class="next">
+				<!--导航区nav，导航至五个子页面-->
+				<!--当前页面导航背景颜色及字体颜色改变-->
+				<div class="nav">
+				    <a href="person.html" ><p>个人简介</p></a>
+				    <a href="interest.html" ><p>兴趣爱好</p></a>
+				    <a href="action.html" ><p>活动经历</p></a>
+				    <a href="trip.html" ><p>旅游生活</p></a>
+				    <a href="friendform.html" ><p style="color: gold;background: #5473aa;">成为朋友</p></a>
+					<!--包括返回首页-->
+					<div class="return">
+				    	<a href="index.html">
+				    	<img src="../img/return.png"  />
+				    	<span>返回首页</span>
+				    	</a>
+				    </div>
+			    </div>
+			    <!--end of nav-->
+			</div>
+		</div>
+		<!--end of header-->
+
+
+        <!--主体内容区main，包括一个信息填写表单-->
+        <div id="main">
+			<!--主体内容区标题-->
+			<div class="title">
+				<h1>想要与我成为朋友吗？</h1>
+				<br />
+				<h2>留下你的信息，我会尽快与你联系！</h2>
+			</div>
+			<div class="content">
+				<!--信息填写表单区，包含七个tablerow对象，对应不同类别的信息-->
+				<form>
+					<div class="tableRow">
+				        <!--校区/学校的选择，使用下拉菜单列表标签-->
+						<p>选择你的校区/学校:</p>
+						<p>
+							<select name="school">
+								<option value="南湖校区">南湖校区</option>
+								<option value="首义校区">首义校区</option>
+								<option value="其他学校">其他学校</option>
+							</select>
+						</p>
+					</div>
+					<div class="tableRow">
+				        <!--性别的选择，使用带有预选定单选框的输入标签-->
+						<p> 性别: </p>
+						<p>
+							<input type="radio" name="sex" value="男"> 男<br>
+							<input type="radio" name="sex" value="女" checked> 
+							女
+						</p>
+					</div>
+					<div class="tableRow">
+				        <!--姓名的输入，使用文本输入框，带有隐藏文字示例-->
+						<p> 姓名: </p>
+						<p> <input type="text" name="name" value="" placeholder="吴文暄" required> </p>
+					</div>
+					<div class="tableRow">
+				        <!--地区的输入，使用文本输入框，带有隐藏文字示例-->
+						<p> 地区: </p>
+						<p> <input type="text" name="city" value="" placeholder="湖北武汉" required> </p>
+					</div>
+					<div class="tableRow">
+				        <!--联系方式的输入，使用电话号码输入框，带有隐藏文字示例-->
+						<p> 联系方式: </p>
+						<p> <input type="tel" name="phone" value="" placeholder="18975615234" required> </p>
+					</div>
+					<div class="tableRow">
+				        <!--留言的输入，使用多行文本输入框，带有隐藏文字示例-->
+						<p> 留言: </p>
+						<p>
+							<textarea name="comments"></textarea>
+						</p>
+					</div>
+					<div class="tableRow">
+				        <!--提交按钮，使用“sumbit”实现信息提交-->
+						<p></p>
+						<p> <input type="submit" value="提交！"> </p>
+					</div>
+	    		</form>
+				<!--end of form-->
+			</div>
+		</div>
+		<!--end of main-->
+
+
+	    <!--页脚区footer-->
+	    <div id="footer">
+			<!--各个页面设置个人主页内容的四个页面的超链接-->
+		    <p>
+			    <a href="person.html">个人简介</a><span>|</span>
+			    <a href="interest.html">兴趣爱好</a><span>|</span>
+			    <a href="action.html">活动经历</a><span>|</span>
+			    <a href="trip.html">旅游生活</a>
+		    </p>
+	    </div>
+		<!--end of footer-->
+	</body>
+</html>
+
